@@ -1,0 +1,27 @@
+{
+	"name": "sqlite3-sequelize-typescript",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node dist/app.js",
+		"dev": "node -r ts-node/register src/app.ts",
+		"build": "tsc -p ."
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/bluebird": "^3.5.29",
+		"@types/node": "^12.12.8",
+		"@types/sequelize": "^4.28.6",
+		"@types/validator": "^10.11.3",
+		"sequelize": "^5.21.2",
+		"sequelize-typescript": "^1.0.0",
+		"sqlite3": "^4.1.0",
+		"typescript": "^3.7.2"
+	},
+	"devDependencies": {
+		"ts-node": "^8.5.2",
+		"reflect-metadata": "^0.1.13"
+	}
+}
