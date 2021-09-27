@@ -10,7 +10,7 @@ import { Post } from './Post';
 	}
 }))
 @Table
-export class Comment extends Model<Comment> {
+export class Comment extends Model {
 	@ForeignKey(() => Post)
 	@Column
 	postId!: number;

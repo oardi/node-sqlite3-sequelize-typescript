@@ -2,7 +2,7 @@ import { Model, Table, HasMany, Column } from 'sequelize-typescript';
 import { Comment } from './Comment';
 
 @Table
-export class Post extends Model<Post> {
+export class Post extends Model {
 	@Column
 	title!: string;
 
